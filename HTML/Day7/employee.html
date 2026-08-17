@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration & Employee Report</title>
+</head>
+<body>
+
+    <h1>Employee Registration Form</h1>
+
+    <form>
+
+        <label for="empid">Employee ID:</label><br>
+        <input type="text" id="empid" name="empid"><br><br>
+
+        <label for="empname">Employee Name:</label><br>
+        <input type="text" id="empname" name="empname"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mobile">Mobile:</label><br>
+        <input type="tel" id="mobile" name="mobile"><br><br>
+
+        <label for="department">Department:</label><br>
+        <select id="department" name="department">
+            <option>Software Development</option>
+            <option>Testing</option>
+            <option>HR</option>
+            <option>Finance</option>
+            <option>Support</option>
+        </select><br><br>
+
+        <label for="experience">Experience (Years):</label><br>
+        <input type="number" id="experience" name="experience"><br><br>
+
+        <label for="salary">Salary:</label><br>
+        <input type="number" id="salary" name="salary"><br><br>
+
+        <label for="skills">Skills:</label><br>
+        <textarea id="skills" name="skills" rows="4"></textarea><br><br>
+
+        <label for="resume">Resume Upload:</label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <hr>
+
+    <h1>Employee Report</h1>
+
+    <table border="0.5" cellpadding="5" cellspacing="5">
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Department</th>
+            <th>Experience</th>
+            <th>Salary</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>EMP001</td>
+            <td>Rahul Sharma</td>
+            <td>Software Development</td>
+            <td>3 Years</td>
+            <td>₹45,000</td>
+            <td>Active</td>
+        </tr>
+
+        <tr>
+            <td>EMP002</td>
+            <td>Priya Kumar</td>
+            <td>Testing</td>
+            <td>2 Years</td>
+            <td>₹38,000</td>
+            <td>Active</td>
+        </tr>
+
+        <tr>
+            <td>EMP003</td>
+            <td>Arun Raj</td>
+            <td>HR</td>
+            <td>5 Years</td>
+            <td>₹60,000</td>
+            <td>On Leave</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

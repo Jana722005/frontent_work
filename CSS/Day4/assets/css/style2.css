@@ -1,0 +1,17 @@
+div{
+    background-color: rgb(76, 76, 235);
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+div > h1 {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}

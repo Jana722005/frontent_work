@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.card {
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#student {
+    background-color: lightblue;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p,
+li {
+    margin: 5px 0;
+}

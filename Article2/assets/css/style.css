@@ -1,0 +1,42 @@
+
+body {
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-color: #3814e7;
+    color: white;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    height: 100%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: 2s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card h3 {
+    color: #eeb05d;
+}
+
+footer {
+    background-color: #0e41e7;
+    color: white;
+    padding: 25px;
+}

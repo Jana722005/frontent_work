@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(144, 121, 46);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+section {
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #f2f2f2;
+}

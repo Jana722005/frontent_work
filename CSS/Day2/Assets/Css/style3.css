@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, h1 {
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.movie {
+    width: 320px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffe4b5;
+}
+
+.movie h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.movie p {
+    margin: 5px;
+}

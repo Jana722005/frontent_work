@@ -1,0 +1,11 @@
+*{
+    margin: 50px;
+}
+span{
+    background-color: aquamarine;
+    display: block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}

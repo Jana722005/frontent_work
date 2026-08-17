@@ -1,0 +1,37 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.product {
+    width: 180px;
+    height: 180px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid rgb(156, 29, 29);
+    border-radius: 10px;
+    background-color: rgba(210, 240, 251, 0.768);
+    display: inline-block;
+    text-align: center;
+}
+
+.product h2 {
+    margin-bottom: 15px;
+}
+
+.product p {
+    font-size: 16px;
+}

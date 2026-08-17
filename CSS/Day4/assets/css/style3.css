@@ -1,0 +1,12 @@
+.parent{
+    background-color: cornflowerblue;
+    height: fit-content;
+}
+
+.display{
+    display: none;
+}
+
+.visibility{
+    visibility: hidden;
+}

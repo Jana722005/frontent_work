@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+}
+.card {
+    background-color: cadetblue;
+    width: 300px;
+    height: 200px;
+    color: aliceblue;
+    text-align: justify;
+    padding: 25px;
+    margin: 15px auto;
+}

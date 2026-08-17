@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+}
+
+.department {
+    width: 300px;
+    padding: 15px;
+    margin: 15px auto;
+    background-color: lightblue;
+}
+
+#cse {
+    background-color: lightgreen;
+    color: darkblue;
+}

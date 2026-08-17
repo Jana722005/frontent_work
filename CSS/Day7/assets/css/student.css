@@ -1,0 +1,28 @@
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.card {
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: rgb(56, 56, 197);
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: bold;
+}

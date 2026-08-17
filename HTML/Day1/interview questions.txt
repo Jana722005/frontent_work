@@ -1,0 +1,38 @@
+Q1. what is HTML?
+   
+    HTML stands for hyper text markup language. it is a markup language which has no memory or a compiler.
+    it is used to structure the layouts and elements presented to display as a webpage.
+
+Q2. what is root element?
+
+    the <html> tag is a root element where the container, parent and child elements are presented inside this root element.
+    for one file there is only one root element will be created not many.
+
+Q3. What is a Parent Element?
+
+    parents elements are present inside a container element also it has a one or more child elements.
+    if any element contains another elements then it is called parent element.
+
+Q4. What is a Child Element?
+
+    child elements are placed inside another element and also child elements can't contains any other elements.
+
+Q5. What is a Container Element?
+
+   An element that can contain other HTML elements inside it.
+   container element have both parent and child element.
+
+Q6. What is the difference between Head and Body?
+
+   head is used to contain information about the webpage like title, content, author etc...
+   body is used to contain the elements which will be displayed on the webpage.
+
+Q7. What is Nesting?
+
+   Placing one HTML element inside another HTML element is called Nesting.
+   like one container element which contains another container element.
+
+Q8. What is DOM?
+
+   DOM is a Document object model it is a tree structures model which is created by html.
+   this object model is used to render the html structure using blinks.

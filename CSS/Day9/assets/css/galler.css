@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+
+    transition: 0.5s;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
+}
