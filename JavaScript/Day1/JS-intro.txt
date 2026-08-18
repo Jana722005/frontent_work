@@ -1,0 +1,42 @@
+What is javascript ?
+
+	javascript is programming language used to make a webpage interactive and dynamic. it is a scripting language.
+
+what is variable ?
+
+	variable is a named container used to stare a data in a memory. it has key word to declare the type of the variable and has a name for the variable with a value used to store in the variable name using assignment operator.
+
+what ia variable declaration ?
+
+	variable declaration means just declare a variable and its name by not assingning a value for it and the output is undefined because the values is not given.
+
+what is initialization ?
+
+	initialization mean declaring a variable and assigning a value for it then the output will be the value give for the variable.
+
+what is a assignment operator ?
+
+	assignment operator are kind of symbols used to assign a value for the concern variable name.
+
+what are var, let and constant ?
+
+	these are all keywords to declare a variable. 
+	
+	var, it is an traditional method to declare a variable before ES6.
+
+	let, it is a modern method to declare a variable and the value can be change using the same variable name.
+
+	const, it is also a modern method to declare a variable and the value cannot be changes and the variable should not be reassigned.
+
+what is ES6 ?
+
+	ES6 is a modern version of javascript introduced in 2015 stands for ECMAscript.
+
+what is a javascript Engine ?
+
+	javascript engine is used to compile the javascript code in the browser to show the give output or result. there are different types of engine in different browser like for google, chrome = v8 engine, firefox = spidermonkey, safari = javascriptcore.
+
+
+what is V8 ?
+
+	V8 is a javascript engine used to execute javascript code. it is developed by google used in google and chrome browsers.

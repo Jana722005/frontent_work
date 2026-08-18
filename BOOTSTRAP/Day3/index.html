@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Tech Store</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">TechStore</a>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="assets/images/banner.png"
+                    class="d-block w-100"
+                    alt="Technology">
+            </div>
+
+            <div class="carousel-item">
+                <img src="assets/images/banner2.png"
+                    class="d-block w-100"
+                    alt="Laptop">
+            </div>
+
+            <div class="carousel-item">
+                <img src="assets/images/banner3.png"
+                    class="d-block w-100"
+                    alt="Mobile">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+        <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+    <div class="container my-5">
+
+        <h2 class="text-center mb-4">Our Products</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <img src="assets/images/cardImage1.jpg"
+                        class="card-img-top"
+                        alt="Laptop">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Laptop</h5>
+
+                        <p class="card-text">
+                            Powerful laptop for work and study.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <img src="assets/images/cardImage2.jpg"
+                        class="card-img-top"
+                        alt="Phone">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Smartphone</h5>
+
+                        <p class="card-text">
+                            Modern smartphone with great features.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <img src="assets/images/cardImage3.jpg"
+                        class="card-img-top"
+                        alt="Headphones">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Headphones</h5>
+
+                        <p class="card-text">
+                            Enjoy clear and quality sound.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container my-5">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input type="text"
+                class="form-control mb-3"
+                placeholder="Enter your name">
+
+            <input type="email"
+                class="form-control mb-3"
+                placeholder="Enter your email">
+
+            <textarea class="form-control mb-3"
+                placeholder="Enter your message"></textarea>
+
+            <button class="btn btn-success">
+                Submit
+            </button>
+
+        </form>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p>© 2026 TechStore. All Rights Reserved</p>
+
+    </footer>
+</body>
+
+</html>
