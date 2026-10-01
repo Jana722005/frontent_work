@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechFuture | Technology Then, Now & Tomorrow</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div id="progressBar" class="progress-bar"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="fixed top-0 left-0 right-0 z-50">
+
+        <nav class="glass">
+
+            <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+                <a href="#" class="text-xl font-bold">
+                    TECH<span class="text-blue-400">/</span>FUTURE
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center gap-8">
+
+                    <a href="#past" class="nav-link">
+                        Past
+                    </a>
+
+                    <a href="#present" class="nav-link">
+                        Present
+                    </a>
+
+                    <a href="#comparison" class="nav-link">
+                        Comparison
+                    </a>
+
+                    <a href="#future" class="nav-link">
+                        Future
+                    </a>
+
+                </div>
+
+                <!-- Mobile Button -->
+                <button
+                    id="menuBtn"
+                    class="md:hidden text-2xl">
+
+                    ☰
+
+                </button>
+
+            </div>
+
+
+            <!-- Mobile Navigation -->
+
+            <div
+                id="mobileMenu"
+                class="hidden md:hidden px-6 pb-5">
+
+                <a href="#past" class="block py-2">
+                    Past
+                </a>
+
+                <a href="#present" class="block py-2">
+                    Present
+                </a>
+
+                <a href="#comparison" class="block py-2">
+                    Comparison
+                </a>
+
+                <a href="#future" class="block py-2">
+                    Future
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <section
+        class="min-h-screen hero-grid flex items-center relative overflow-hidden">
+
+        <div class="absolute w-96 h-96 bg-blue-500/10 rounded-full blur-3xl top-20 left-10"></div>
+
+        <div class="absolute w-96 h-96 bg-purple-500/10 rounded-full blur-3xl bottom-10 right-10"></div>
+
+
+        <div class="max-w-7xl mx-auto px-6 pt-28 pb-20">
+
+            <div class="max-w-4xl">
+
+                <p class="text-blue-400 uppercase tracking-[0.3em] text-sm mb-6">
+                    Technology • Evolution • Future
+                </p>
+
+
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-8">
+
+                    From
+                    <span class="gradient-text">
+                        Simple Machines
+                    </span>
+
+                    to
+
+                    <span class="gradient-text">
+                        Intelligent Systems
+                    </span>
+
+                </h1>
+
+
+                <p class="text-xl md:text-2xl text-gray-400 leading-relaxed max-w-3xl">
+
+                    Technology has transformed the way we communicate,
+                    work, learn, travel and solve problems. But the biggest
+                    transformation may still be ahead of us.
+
+                </p>
+
+
+                <div class="mt-10 flex flex-wrap gap-4">
+
+                    <a
+                        href="#past"
+                        class="px-7 py-3 bg-blue-500 hover:bg-blue-600 rounded-full font-semibold transition">
+
+                        Explore the Journey
+
+                    </a>
+
+
+                    <a
+                        href="#future"
+                        class="px-7 py-3 border border-gray-700 hover:border-blue-400 rounded-full font-semibold transition">
+
+                        Look Ahead
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Statistics -->
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-20">
+
+                <div class="glass rounded-2xl p-6">
+
+                    <p
+                        class="text-3xl font-bold counter"
+                        data-target="95">
+
+                        0
+
+                    </p>
+
+                    <p class="text-gray-500 mt-2">
+                        Years of rapid computing evolution
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-6">
+
+                    <p
+                        class="text-3xl font-bold counter"
+                        data-target="5">
+
+                        0
+
+                    </p>
+
+                    <p class="text-gray-500 mt-2">
+                        Major technology waves
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-6">
+
+                    <p
+                        class="text-3xl font-bold counter"
+                        data-target="24">
+
+                        0
+
+                    </p>
+
+                    <p class="text-gray-500 mt-2">
+                        Hours of connected life
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-6">
+
+                    <p class="text-3xl font-bold">
+                        AI
+                    </p>
+
+                    <p class="text-gray-500 mt-2">
+                        The next major interface
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= INTRODUCTION ================= -->
+
+    <section class="py-28">
+
+        <div class="max-w-4xl mx-auto px-6 text-center reveal">
+
+            <p class="text-blue-400 uppercase tracking-widest text-sm mb-5">
+                The Big Picture
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">
+
+                Technology is not just getting faster.
+
+                <span class="gradient-text">
+                    It is changing how we live.
+                </span>
+
+            </h2>
+
+            <p class="text-gray-400 text-lg leading-8">
+
+                Earlier technologies were primarily designed to help humans
+                perform physical or repetitive tasks. Modern technology is
+                increasingly capable of processing information, learning from
+                data and assisting humans in making decisions.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PAST ================= -->
+
+    <section id="past" class="py-28 bg-[#080b1c]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="max-w-3xl mb-16 reveal">
+
+                <p class="text-blue-400 uppercase tracking-widest text-sm mb-4">
+                    Chapter 01
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    How technology worked before
+                </h2>
+
+                <p class="text-gray-400 text-lg leading-8">
+
+                    Traditional technology depended heavily on manual
+                    operation. Machines could perform predefined tasks,
+                    but they generally could not understand context,
+                    learn from experience or adapt independently.
+
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <div class="number">
+                        01
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Manual Processes
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Information was often recorded on paper.
+                        Communication required physical movement,
+                        and many business processes depended on
+                        human intervention.
+
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <div class="number">
+                        02
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Limited Computing
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Early computers were expensive, large and
+                        designed for specific calculations rather
+                        than the broad range of applications we use
+                        today.
+
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <div class="number">
+                        03
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Isolated Systems
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Devices generally worked independently.
+                        Data sharing between systems was slower
+                        and required physical connections or
+                        dedicated networks.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PRESENT ================= -->
+
+    <section id="present" class="py-28">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="max-w-3xl mb-16 reveal">
+
+                <p class="text-blue-400 uppercase tracking-widest text-sm mb-4">
+                    Chapter 02
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    How technology works today
+                </h2>
+
+                <p class="text-gray-400 text-lg leading-8">
+
+                    Today's technology connects devices, people and
+                    information through software, networks and cloud
+                    infrastructure. Increasingly, systems can also
+                    analyze data and automate decisions.
+
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- AI -->
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <span class="text-blue-400 text-sm">
+                        01 / INTELLIGENCE
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-3">
+                        Artificial Intelligence
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        AI systems analyze large amounts of data,
+                        recognize patterns and generate predictions,
+                        recommendations or content.
+
+                    </p>
+
+                </div>
+
+
+                <!-- IOT -->
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <span class="text-purple-400 text-sm">
+                        02 / CONNECTIVITY
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-3">
+                        Internet of Things
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Sensors embedded in devices collect information
+                        and communicate it through networks, allowing
+                        physical objects to become connected systems.
+
+                    </p>
+
+                </div>
+
+
+                <!-- CLOUD -->
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <span class="text-cyan-400 text-sm">
+                        03 / INFRASTRUCTURE
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-3">
+                        Cloud Computing
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Applications can use remote computing,
+                        storage and databases through the internet
+                        instead of relying only on local hardware.
+
+                    </p>
+
+                </div>
+
+
+                <!-- EV -->
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <span class="text-green-400 text-sm">
+                        04 / TRANSPORT
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-3">
+                        Electric Vehicles
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Electric motors convert electrical energy into
+                        mechanical motion, while batteries store energy
+                        for vehicle operation.
+
+                    </p>
+
+                </div>
+
+
+                <!-- ROBOTICS -->
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <span class="text-yellow-400 text-sm">
+                        05 / AUTOMATION
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-3">
+                        Robotics
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Robots combine sensors, software, control systems
+                        and mechanical components to perform physical
+                        tasks.
+
+                    </p>
+
+                </div>
+
+
+                <!-- 5G -->
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <span class="text-pink-400 text-sm">
+                        06 / COMMUNICATION
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-3">
+                        5G & Advanced Networks
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+
+                        Modern networks provide faster data transfer,
+                        lower latency and support for large numbers
+                        of connected devices.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+
+    <section class="py-28 bg-[#080b1c]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+
+                <p class="text-blue-400 uppercase tracking-widest text-sm mb-4">
+                    Under The Surface
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    How modern technology works
+                </h2>
+
+                <p class="text-gray-400 text-lg">
+
+                    Most modern systems follow a common pattern:
+                    collect information, process it, make decisions
+                    and produce an action or result.
+
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-4 gap-6">
+
+                <div class="glass rounded-2xl p-8 text-center reveal">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Input
+                    </h3>
+
+                    <p class="text-gray-400">
+                        Sensors, users and devices provide data.
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-8 text-center reveal">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Processing
+                    </h3>
+
+                    <p class="text-gray-400">
+                        Software and computing systems analyze the data.
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-8 text-center reveal">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Intelligence
+                    </h3>
+
+                    <p class="text-gray-400">
+                        Algorithms identify patterns and determine actions.
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-8 text-center reveal">
+
+                    <div class="step-number">
+                        04
+                    </div>
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Output
+                    </h3>
+
+                    <p class="text-gray-400">
+                        The system provides a result or action.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= COMPARISON ================= -->
+
+    <section id="comparison" class="py-28">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <div class="text-center mb-14 reveal">
+
+                <p class="text-blue-400 uppercase tracking-widest text-sm mb-4">
+                    Chapter 03
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold">
+                    Then vs. Now
+                </h2>
+
+            </div>
+
+
+            <!-- Buttons -->
+
+            <div class="flex flex-wrap justify-center gap-3 mb-10">
+
+                <button
+                    class="comparison-btn active px-5 py-2 rounded-full"
+                    data-target="communication">
+
+                    Communication
+
+                </button>
+
+                <button
+                    class="comparison-btn px-5 py-2 rounded-full"
+                    data-target="work">
+
+                    Work
+
+                </button>
+
+                <button
+                    class="comparison-btn px-5 py-2 rounded-full"
+                    data-target="education">
+
+                    Education
+
+                </button>
+
+                <button
+                    class="comparison-btn px-5 py-2 rounded-full"
+                    data-target="transport">
+
+                    Transport
+
+                </button>
+
+            </div>
+
+
+            <!-- Communication -->
+
+            <div
+                id="communication"
+                class="comparison-content active">
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-gray-500 mb-3">
+                            THEN
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Letters & Landlines
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Communication could depend on physical
+                            delivery or fixed telephone infrastructure.
+                            Distance often meant significant delays.
+                        </p>
+
+                    </div>
+
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-blue-400 mb-3">
+                            NOW
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Instant Global Communication
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Smartphones, messaging platforms, video calls
+                            and cloud services allow people to exchange
+                            information almost instantly.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Work -->
+
+            <div
+                id="work"
+                class="comparison-content">
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-gray-500 mb-3">
+                            THEN
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Manual Operations
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Employees handled repetitive calculations,
+                            paperwork and physical records manually.
+                        </p>
+
+                    </div>
+
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-blue-400 mb-3">
+                            NOW
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Digital Workflows
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Software automates repetitive tasks while
+                            AI-assisted systems can analyze information
+                            and support decision-making.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Education -->
+
+            <div
+                id="education"
+                class="comparison-content">
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-gray-500 mb-3">
+                            THEN
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Physical Resources
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Students primarily depended on classrooms,
+                            textbooks and physical libraries.
+                        </p>
+
+                    </div>
+
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-blue-400 mb-3">
+                            NOW
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Digital Learning
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Online courses, simulations, digital libraries
+                            and AI learning assistants provide additional
+                            ways to access information.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Transport -->
+
+            <div
+                id="transport"
+                class="comparison-content">
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-gray-500 mb-3">
+                            THEN
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Mechanical Transportation
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Vehicles depended primarily on mechanical
+                            systems and combustion engines.
+                        </p>
+
+                    </div>
+
+
+                    <div class="glass rounded-2xl p-8">
+
+                        <p class="text-blue-400 mb-3">
+                            NOW
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-4">
+                            Connected & Electric
+                        </h3>
+
+                        <p class="text-gray-400 leading-7">
+                            Modern vehicles increasingly combine electric
+                            power, sensors, software, connectivity and
+                            driver-assistance systems.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= BENEFITS ================= -->
+
+    <section class="py-28 bg-[#080b1c]">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="max-w-3xl mb-14 reveal">
+
+                <p class="text-blue-400 uppercase tracking-widest text-sm mb-4">
+                    Chapter 04
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    Why new technology matters
+                </h2>
+
+                <p class="text-gray-400 text-lg">
+
+                    The value of technology is not simply that it is newer.
+                    Its importance comes from what it allows people and
+                    organizations to accomplish.
+
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Faster Work
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Automation can reduce repetitive work and allow
+                        people to focus on tasks requiring creativity,
+                        communication and judgment.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Better Access
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Digital services can make education, information
+                        and communication available across geographical
+                        boundaries.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        Smarter Decisions
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Data analytics and AI can identify patterns that
+                        may be difficult to detect manually.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-7 reveal">
+
+                    <h3 class="text-xl font-bold mb-3">
+                        New Possibilities
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Emerging technologies create products, services
+                        and industries that were previously difficult
+                        or impossible to build.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CHALLENGES ================= -->
+
+    <section class="py-28">
+
+        <div class="max-w-5xl mx-auto px-6">
+
+            <div class="text-center mb-14 reveal">
+
+                <p class="text-blue-400 uppercase tracking-widest text-sm mb-4">
+                    A Balanced View
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold">
+                    Progress also creates responsibility
+                </h2>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <div class="glass rounded-2xl p-7 reveal">
+
+                    <h3 class="text-xl font-bold mb-4">
+                        Privacy
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        More connected systems collect more data.
+                        Protecting personal information becomes
+                        increasingly important.
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-7 reveal">
+
+                    <h3 class="text-xl font-bold mb-4">
+                        Security
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        As systems become more connected, cybersecurity
+                        becomes essential for protecting infrastructure,
+                        businesses and individuals.
+                    </p>
+
+                </div>
+
+
+                <div class="glass rounded-2xl p-7 reveal">
+
+                    <h3 class="text-xl font-bold mb-4">
+                        Human Skills
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Technology changes the skills required in the
+                        workplace, increasing the importance of continuous
+                        learning and adaptation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FUTURE ================= -->
+
+    <section
+        id="future"
+        class="py-32 bg-[#080b1c] relative overflow-hidden">
+
+        <div class="absolute inset-0 hero-grid opacity-40"></div>
+
+
+        <div class="max-w-7xl mx-auto px-6 relative">
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <div class="reveal">
+
+                    <p class="text-blue-400 uppercase tracking-widest text-sm mb-5">
+                        Chapter 05
+                    </p>
+
+                    <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-7">
+
+                        What could the
+
+                        <span class="gradient-text">
+                            future
+                        </span>
+
+                        look like?
+
+                    </h2>
+
+
+                    <p class="text-gray-400 text-lg leading-8 mb-8">
+
+                        The future will likely be defined by technologies
+                        working together rather than existing separately.
+                        AI may interact with robotics, connected devices,
+                        advanced networks, biotechnology and new computing
+                        architectures.
+
+                    </p>
+
+
+                    <p class="text-gray-400 text-lg leading-8">
+
+                        The most important question is not simply what
+                        technology can do. It is how responsibly we choose
+                        to use it.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Future Orb -->
+
+                <div
+                    class="relative h-[450px] flex items-center justify-center reveal">
+
+                    <div class="future-orb">
+
+                        <div class="future-orb-inner">
+
+                            <div class="future-core">
+                                FUTURE
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="absolute top-10 left-10 glass px-5 py-3 rounded-full">
+                        AI
+                    </div>
+
+                    <div class="absolute top-20 right-5 glass px-5 py-3 rounded-full">
+                        Robotics
+                    </div>
+
+                    <div class="absolute bottom-20 left-5 glass px-5 py-3 rounded-full">
+                        Quantum
+                    </div>
+
+                    <div class="absolute bottom-10 right-10 glass px-5 py-3 rounded-full">
+                        Biotechnology
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FUTURE TECHNOLOGIES ================= -->
+
+    <section class="py-28">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-16 reveal">
+
+                <p class="text-blue-400 uppercase tracking-widest text-sm mb-4">
+                    Emerging Technologies
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold">
+                    Technologies shaping tomorrow
+                </h2>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <span class="text-blue-400">
+                        01
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-4">
+                        Generative AI
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        AI systems capable of generating text, images,
+                        software and other forms of content could become
+                        increasingly integrated into professional workflows.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <span class="text-purple-400">
+                        02
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-4">
+                        Quantum Computing
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Quantum computers use quantum mechanical effects
+                        for computation and may eventually address certain
+                        problems that are difficult for classical computers.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <span class="text-cyan-400">
+                        03
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-4">
+                        Autonomous Systems
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Robots, vehicles and machines may increasingly
+                        perceive their surroundings and perform tasks
+                        with limited human intervention.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <span class="text-green-400">
+                        04
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-4">
+                        Biotechnology
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Advances in biotechnology may improve medical
+                        research, diagnostics, therapies and our ability
+                        to understand biological systems.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <span class="text-yellow-400">
+                        05
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-4">
+                        Smart Infrastructure
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        Cities, buildings and transportation networks
+                        can increasingly use sensors and data to improve
+                        efficiency and resource management.
+                    </p>
+
+                </div>
+
+
+                <div class="glass card rounded-2xl p-8 reveal">
+
+                    <span class="text-pink-400">
+                        06
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-4 mb-4">
+                        Human-Machine Interfaces
+                    </h3>
+
+                    <p class="text-gray-400 leading-7">
+                        New interfaces may make interactions with computers
+                        more natural through voice, vision, gesture and
+                        other emerging interaction methods.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONCLUSION ================= -->
+
+    <section class="py-32 bg-[#080b1c]">
+
+        <div class="max-w-4xl mx-auto px-6 text-center reveal">
+
+            <p class="text-blue-400 uppercase tracking-widest text-sm mb-5">
+                Final Thought
+            </p>
+
+            <h2 class="text-4xl md:text-6xl font-bold leading-tight mb-8">
+
+                The future is not something
+
+                <span class="gradient-text">
+                    technology creates alone.
+                </span>
+
+            </h2>
+
+
+            <p class="text-gray-400 text-lg md:text-xl leading-8">
+
+                Technology is a tool. Its impact depends on the people,
+                organizations and societies that design it, regulate it
+                and use it. The next generation will not simply inherit
+                new technologies — they will have the opportunity to
+                decide how those technologies shape everyday life.
+
+            </p>
+
+
+            <a
+                href="#"
+                class="inline-block mt-10 px-8 py-3 rounded-full bg-blue-500 hover:bg-blue-600 font-semibold transition">
+
+                Back to Top
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="border-t border-gray-800">
+
+        <div
+            class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between gap-4">
+
+            <p class="text-gray-500">
+                TECH/FUTURE
+            </p>
+
+            <p class="text-gray-600 text-sm">
+                Exploring technology, innovation and tomorrow.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
