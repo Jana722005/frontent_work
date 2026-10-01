@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+
+.navbar{
+    background-color: rgb(202, 222, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo > img{
+    width: 200px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.search > input{
+    width: 500px;
+    height: 20px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}

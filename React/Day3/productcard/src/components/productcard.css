@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+
+.productcard > img{
+
+    width: 200px;
+}
+
+.productcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    background-color: rgb(90, 132, 48);
+    border: none;
+}
+
+.card1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}

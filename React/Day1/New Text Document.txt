@@ -1,0 +1,41 @@
+1. what is react?
+
+	React is a open source javascript library and it is used to create interactive web application and reusable interfaces. also react help in UI for web application creation. react was introduced by facebook now it is maintained by meta and open source community.
+
+
+2. what is component?
+
+	component is a small piece UI it hold both the logic and the UI in the same page. there are two type of component.
+		
+		single component
+
+		multi component
+
+3. is react library or framework?
+
+
+	react is not a framework it is a open source js library and it is used for user interface and UI rendering process.
+
+4. Why are components important?
+
+	components are important because it holds the both Ui and logic in a same page also it efficiently updates the changes in the particular UI part and it is modular and scalable. mainly it is reusable one.
+
+
+5. What is JSX?
+
+
+	jsx in react is a syntax extension for javascript (javascript xml) it allows HTML like markup to write within the javascript code to convert the HTML to react element.
+
+
+6. What is Virtual DOM?
+
+	virtual DOM is a virtual in-memory of the Actual DOM it holds the past data of the actual data in it and compare it to the new data and update the changes with the new data tree. this is the frequent process done in react.
+
+
+7. What is the Real DOM?
+
+	The Real DOM is a tree-like structure created and maintained by the browser, where each HTML element, attribute, and text node is represented as a node in the tree.  It allows JavaScript to interact with and manipulate the content, structure, and style of a web page dynamically.
+
+8. What is reconciliation in react?
+
+	Reconciliation in React is the process used to efficiently update the DOM (Document Object Model) when changes occur in the application's state or UI. Instead of re-rendering the entire UI, React identifies and updates only the parts of the DOM that have changed, ensuring optimal performance and consistency.
