@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+
+    <style>
+        .content {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .content.show {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="paragraph" class="content">This is the paragraph that can be shown and hidden</p>
+
+    <button id="toggleBtn">Show</button>
+
+    <script>
+        const paragraph = document.getElementById("paragraph");
+        const button = document.getElementById("toggleBtn");
+
+        button.addEventListener("click", () => {
+
+            paragraph.classList.toggle("show");
+
+            if (paragraph.classList.contains("show")) {
+                button.textContent = "Hide";
+            } else {
+                button.textContent = "Show";
+            }
+
+        });
+    </script>
+</body>
+</html>

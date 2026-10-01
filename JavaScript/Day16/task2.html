@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: lightgray;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .active {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" class="box active">
+        <p>Active Box</p>
+    </div>
+    <br>
+    <button id="btn">Remove Active</button>
+
+    <script>
+        const box = document.getElementById("box");
+        const button = document.getElementById("btn");
+
+        button.addEventListener("click", () => {
+            box.classList.remove("active");
+        });
+    </script>
+
+</body>
+</html>

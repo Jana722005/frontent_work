@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+
+    <style>
+        .student {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Details</h2>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="number" id="age" placeholder="Enter Age">
+    <input type="text" id="city" placeholder="Enter City">
+
+    <button id="addStudent">Add Student</button>
+
+    <div id="studentList"></div>
+
+    <script>
+        const students = [];
+        const nameInput = document.getElementById("name");
+        const ageInput = document.getElementById("age");
+        const cityInput = document.getElementById("city");
+
+        const addButton = document.getElementById("addStudent");
+        const studentList = document.getElementById("studentList");
+
+        addButton.addEventListener("click", () => {
+            const name = nameInput.value;
+            const age = ageInput.value;
+            const city = cityInput.value;
+
+            const student = {
+                name: name,
+                age: age,
+                city: city
+            };
+
+            students.push(student);
+            studentList.innerHTML = "";
+
+            students.forEach((student) => {
+
+                const div = document.createElement("div");
+
+                div.classList.add("student");
+
+                div.innerHTML = `
+                    <h3>${student.name}</h3>
+                    <p>Age: ${student.age}</p>
+                    <p>City: ${student.city}</p>
+                `;
+                studentList.appendChild(div);
+            });
+
+            nameInput.value = "";
+            ageInput.value = "";
+            cityInput.value = "";
+        });
+    </script>
+
+</body>
+</html>
